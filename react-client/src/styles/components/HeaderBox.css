@@ -1,0 +1,30 @@
+.header-box {
+    background-color: #fff;
+    flex-grow: 1;
+    margin: 1%;
+    padding: 1%;
+    color: #babed0;
+}
+
+.header-box-container {
+    display: flex;
+}
+
+.header-box-items {
+    flex-grow: 1;
+}
+
+.header-box-icon {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.header-box-item {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-box-item .subtext {
+    font-size: 0.5em;
+    font-weight: normal;
+} 

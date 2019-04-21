@@ -1,0 +1,35 @@
+#right-view .right-box-a {
+    display: flex;
+    height: 80px;
+}
+
+.right-box-a .left-part {
+    flex-grow: 1;
+}
+
+.right-box-a .right-part {
+    flex-grow: 5;
+}
+
+.right-part .title {
+    font-weight: bold;
+    color: black;
+}
+
+.right-part img {
+    width: 18px;
+}
+
+.right-part .icon-text {
+    font-size: 0.8em;
+    margin-left: 1%;
+}
+
+.right-part .contact {
+    display: flex;
+    margin-top: 2%;
+}
+
+.right-part .icons-area {
+    flex-grow: 1;
+}

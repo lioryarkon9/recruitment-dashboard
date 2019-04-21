@@ -1,0 +1,28 @@
+#right-view {
+    background-color: #efefef;
+    margin-left: 1%;
+}
+
+#share-listings-div {
+    font-weight: bold;
+    margin: 1% 0% 4% 0%;
+}
+
+.right-box {
+    background-color: #f2f2f2;
+    color: #797c9c;
+    box-shadow: 2px 5px 5px #c9c9c9;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+#right-view #share-listings-div::after {
+    content: "";
+    background-image: url('../../images/megaphone.png');
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: 15px 15px;
+    position: relative;
+    left: 60%;;
+}

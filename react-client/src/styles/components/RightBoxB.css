@@ -1,0 +1,27 @@
+.right-box-b {
+
+}
+
+.right-box-b .title {
+    font-weight: bold;
+    color: black;
+    font-size: 0.9em;
+}
+
+.right-box-b .count-items {
+    display: flex;
+    font-size: 0.9em;
+    margin: 5% 0% 5% 0%;
+}
+
+.count-items .single-item {
+    flex-grow: 1;
+}
+
+.single-item .counter-span {
+    padding: 1% 5% 1% 5%;
+    color: #fff;
+    background-color: #09f;
+    border-radius: 10px;
+    font-size: 0.9em;
+}

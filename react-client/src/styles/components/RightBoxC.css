@@ -1,0 +1,43 @@
+#right-view .right-box-c {
+    border-bottom: 1px solid #fff; 
+} 
+
+.right-box-c .title {
+    font-weight: bold;
+    color: black;
+}
+
+.right-box-c .icon {
+    width: 10%;
+    text-align: right;
+}
+
+.right-box-c img {
+    width: 15px;
+}
+
+.right-box-c .middle {
+    margin: 5% 0% 5% 0%;
+}
+
+.right-box-c .message {
+    font-weight: bold;
+    color: black;
+}
+
+.right-box-c .details {
+    font-size: 0.8em;
+}
+
+.right-box-c .bottom {
+    margin-bottom: 2%;
+}
+
+.right-box-c .bottom::before {
+    content: "";
+    background-image: url('../../images/star.png');
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: 15px 15px;
+}
